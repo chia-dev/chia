@@ -23,8 +23,8 @@ This command will scan the specified drive and will create plots-generated.yaml
 Appending entries for 2nd, 3rd hard disks
 ```
     python generate_plots_yaml_file.py -d /mnt/disk1/plots
-    python generate_plots_yaml_file.py -a True -d /mnt/disk1/plots
-    python generate_plots_yaml_file.py -a True -d /mnt/disk1/plots
+    python generate_plots_yaml_file.py -a True -d /mnt/disk2/plots
+    python generate_plots_yaml_file.py -a True -d /mnt/disk3/plots
 ```    
 This command will append entries to lots-generated.yaml, for 2nd, 3rd drives
 
