@@ -1,4 +1,4 @@
-#PLOTS.YAML Generator for Chia Blockchain
+# PLOTS.YAML Generator for Chia Blockchain
 
 Script for creating Chia Blockchain plots.yaml files.
 
