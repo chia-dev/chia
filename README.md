@@ -5,7 +5,7 @@ Script for creating Chia Blockchain plots.yaml files.
 Instead of copying plots.yaml entries manually from your Plotting machines to your Farmers/Harvesters this script will scan a directory and generate a plots.yaml file for you.
 
 The generated file will be called plots-generated.yaml and will be located in the default config directory.
-## Remember to rename plots-generated.yaml to plots.yaml
+** Remember to rename plots-generated.yaml to plots.yaml **
 
 Copy script to `~/chia-blockchain/src/cmds`
 
