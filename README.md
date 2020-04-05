@@ -6,7 +6,7 @@ Instead of copying plots.yaml entries manually from your Plotting machines to yo
 
 The generated file will be called plots-generated.yaml and will be located in the default config directory.
 
-Copy script to ~/chia-blockchain/src/cmds
+Copy script to `~/chia-blockchain/src/cmds`
 
 Execute by running: 
 ```
