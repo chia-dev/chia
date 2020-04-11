@@ -64,7 +64,7 @@ def main():
         outfile = open(str(plot_config_filename)[0:-5] + "-generated.yaml","a+")        
     else:
         outfile = open(str(plot_config_filename)[0:-5] + "-generated.yaml","w+")
-        outfile.write("plots:\n");
+        outfile.write("plots:\n"); 
 
     pathlist = Path(args.final_dir).glob('*.dat')
     pathlist = sorted(pathlist)
