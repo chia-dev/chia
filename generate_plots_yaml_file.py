@@ -83,9 +83,9 @@ def main():
         sk: PrivateKey = PrivateKey.from_seed(
             sk_seed + size.to_bytes(1, "big") + index.to_bytes(4, "big")
         )
-        outfile.write("  " + str(path) + ":\r")
-        outfile.write("    pool_pk: " + bytes(pool_pk).hex() + "\r")
-        outfile.write("    sk: " + bytes(sk).hex() + "\r")
+        outfile.write("  " + str(path) + ":\n")
+        outfile.write("    pool_pk: " + bytes(pool_pk).hex() + "\n")
+        outfile.write("    sk: " + bytes(sk).hex() + "\n")
 
     outfile.close()
     print("plots-generated.yaml created in the config directory")
