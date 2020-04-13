@@ -88,6 +88,6 @@ def main():
         outfile.write("    sk: " + bytes(sk).hex() + "\n")
 
     outfile.close()
-    print(pathlist + "plots-generated.yaml created in the config directory")
+    print("plots-generated.yaml created in the config directory")
 if __name__ == "__main__":
     main()
