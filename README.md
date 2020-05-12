@@ -11,6 +11,8 @@ Copy script to `~/chia-blockchain/src/cmds`
 
 Execute by running: 
 ```
+cd ~/chia-blockchain
+. ./activate
 python generate_plots_yaml_file.py 
 ```
 Without any parameters the default plots.yaml and keys.yaml locations will be used
